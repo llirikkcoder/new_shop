@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "orders",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "address": {
+      "required": true,
+      "type": "string"
+    },
+    "postalCode": {
+      "required": true,
+      "type": "string"
+    },
+    "artworks": {
+      "type": "json",
+      "required": true
+    },
+    "amount": {
+      "type": "decimal",
+      "required": true
+    },
+    "city": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

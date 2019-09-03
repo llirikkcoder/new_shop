@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "info": {
+    "name": "role",
+    "description": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "required": true,
+      "configurable": false
+    },
+    "description": {
+      "type": "string",
+      "configurable": false
+    },
+    "type": {
+      "type": "string",
+      "unique": true,
+      "configurable": false
+    },
+    "permissions": {
+      "collection": "permission",
+      "via": "role",
+      "plugin": "users-permissions"
+    },
+    "users": {
+      "collection": "user",
+      "via": "role",
+      "configurable": false,
+      "plugin": "users-permissions"
+    }
+  },
+  "collectionName": "users-permissions_role"
+}
