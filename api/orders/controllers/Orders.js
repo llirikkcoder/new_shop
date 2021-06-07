@@ -1,6 +1,6 @@
 'use strict';
 
-const stripe = require('stripe')('sk_test_A41Q83lDBmDaE0QzkQCXoXy300F6fTTxVi');
+const stripe = require('stripe')('sk_test_51IpGHqDA4WrfaiJAvKivlWWL6oYmS0RsXGzyJFTEmLyqjfATqv9x6R2QaI5ewqmakMMC5ED1L5X2DRJjodkH3wKo00S51yNHzy');
 
 /**
  * Orders.js controller
